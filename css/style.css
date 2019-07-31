@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Pacifico&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, .7)
+}
+
+header{
+    font-family: 'Pacifico', cursive;
+    background: #28ad50;
+   
+    color: white;
+    padding: 8px 20px;
+}
+
+.bg-gradient{
+    background: #28ad50;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, rgb(40, 37, 214), rgb(98, 255, 7));  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, rgb(40, 37, 214), rgb(40, 37, 214)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.container{
+    max-width: 1024px;
+    margin: auto;
+    padding: 20px;
+  
+}
+
+.row{
+    display: grid;
+    grid-template-columns: 1fr 350px;
+    grid-gap: 10px;
+}
+
+.hero{
+    padding: 20px;
+    color: #fff;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+.hero button{
+    /* border: 1px solid white; */
+    padding: 20px;
+    margin-top: 25px;
+    border-radius: 100px;
+    background: transparent;
+    color: white;
+    outline: none;
+    transition: .25s background ease-in-out;
+}
+
+.hero button:disabled{
+    background: rgba(255, 255, 255, .7)
+}
+
+#jokes-list{
+    list-style: none;
+    padding: 0;
+    
+   
+}
+ #content{
+    margin: 20px;
+    padding: 20px;
+}
+ li{
+     border: 1px solid #DA22FF;
+     border-radius: 15px;
+    padding : 20px;
+    margin : 20px;
+    
+}
+#reaction img{
+    width: 380px;
+    
+    
+}
+#status-container{
+    width: 380px;
+}
+img {
+    width: 220px;
+    height: 150px;
+    text-align: center;
+    display: block;
+margin-left: auto;
+margin-right: auto;
+  } 
+
+h4{
+    
+     
+    font-size: 30px;
+    margin: 20px;
+    padding : 20px;
+    
+}
+h2{
+    padding:20px;
+}
+#status{
+    border: 1px solid #DA22FF;
+    border-radius: 15px;
+   padding : 20px;
+   margin : 20px;
+}
+.jokes-list-container{
+   text-align: center;
+}
+  
+.imahe{
+    
+    display:block;
+    width: 150px;
+    height: 200px;  
+
+
+}
+#status-container img{
+    text-align: center;
+    width: 150px;
+    height: 70%;
+    
+    display: block;
+
+}
+
